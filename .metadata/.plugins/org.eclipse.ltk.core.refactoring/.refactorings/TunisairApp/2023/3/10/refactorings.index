@@ -1,3 +1,11 @@
 1678006679928	Delete element
 1678007145062	Rename package 'com.example.demo.entity'
 1678007320145	Delete element
+1678010258714	Rename compilation unit 'VolEntity.java'
+1678010600372	Rename package 'com.example.demo.Entity'
+1678010649007	Rename package 'com.example.demo.Config'
+1678010663662	Rename package 'com.example.demo.Controller'
+1678010676812	Rename package 'com.example.demo.Dto'
+1678010691914	Rename package 'com.example.demo.Enums'
+1678010704558	Rename package 'com.example.demo.Repository'
+1678010726077	Rename package 'com.example.demo.Service'
