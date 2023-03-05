@@ -29,14 +29,18 @@ public class Vol {
 	  private Date dateArrivee;
 	  private Date heureDepart;
 	  private Date heureArrivee;
-	  private String aeroportDepart;
-	  private String aeroportArrivee;
 	  private String etat;
 	  private EType type;
 	  private double prix;
 	  
 	  @ManyToOne
 	  private Avion avion;
+	  
+	  @ManyToOne
+	  private Aeroport aeroportDepart;
+	  
+	  @ManyToOne
+	  private Aeroport aeroportArrivee;
 	  
 	  @JsonIgnore
 	  @OneToMany(cascade = CascadeType.ALL, mappedBy = "vol")
