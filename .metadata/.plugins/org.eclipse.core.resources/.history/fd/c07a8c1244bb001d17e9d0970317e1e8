@@ -1,0 +1,22 @@
+package com.example.demo.entity;
+
+public class Vol {
+	
+	
+	
+	@Id
+	  private long id;
+	  private String reference;
+	  private String url;
+	  private Date dateAdd;
+	  private Date dateUpd;
+
+
+	
+	
+	
+	
+	
+	
+	
+}

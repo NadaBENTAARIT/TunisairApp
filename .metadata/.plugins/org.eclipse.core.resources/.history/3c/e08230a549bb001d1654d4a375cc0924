@@ -1,0 +1,12 @@
+package com.example.demo.entity;
+
+import java.sql.Date;
+
+import jakarta.persistence.Id;
+
+public class Avion {
+	@Id
+	  private long id;
+	  private String type;
+
+}

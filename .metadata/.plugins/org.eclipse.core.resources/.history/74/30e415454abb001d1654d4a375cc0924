@@ -1,0 +1,29 @@
+package com.example.demo.entity;
+
+
+import java.sql.Date;
+
+import com.example.demo.enums.EType;
+
+import jakarta.persistence.*;
+import lombok.*;
+
+
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+
+@Setter
+@Entity
+public class Avion {
+	@Id
+	  private long id;
+	  private String type;
+	  
+	  @JsonIgnore
+	  @OneToMany(cascade = CascadeType.ALL, mappedBy = "Avion")
+	  private List<Vol> vols;
+
+}

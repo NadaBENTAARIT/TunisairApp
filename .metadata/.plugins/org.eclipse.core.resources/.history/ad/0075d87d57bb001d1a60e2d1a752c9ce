@@ -1,0 +1,10 @@
+package com.example.demo.entity;
+
+import jakarta.persistence.Id;
+
+public class Aeroport {
+	@Id
+	  private long id;
+	  private String nom;
+	  
+}
